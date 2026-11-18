@@ -15,7 +15,7 @@ spec:
         spec:
           containers:
             - name: bbx-health-check
-              image: ikulyk404/busyboxplus:curl
+              image: busyboxplus:curl
               command:
                 - curl
                 - -fsS
